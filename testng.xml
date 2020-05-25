@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+	<listener class-name = "resources.Listeners"/>
+</listeners>
+  <test name="Home Page Validation">
+    <classes>
+      <class name="learning.HomePage"/>
+    </classes>
+  </test>
+  <test name="Login Verification">
+    <classes>
+      <class name="learning.LoginVerification"/>
+    </classes>
+  </test>
+  <test name="Titel Validation">
+    <classes>
+      <class name="learning.HomepageTitleValidation"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

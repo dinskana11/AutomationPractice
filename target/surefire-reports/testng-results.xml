@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="179224" started-at="2020-05-14T16:26:02Z" finished-at="2020-05-14T16:29:01Z">
+    <groups>
+    </groups>
+    <test name="Home Page Validation" duration-ms="96425" started-at="2020-05-14T16:26:02Z" finished-at="2020-05-14T16:27:39Z">
+      <class name="learning.HomePage">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:learning.HomePage@131ef10]" name="intialize" is-config="true" duration-ms="11315" started-at="2020-05-14T16:26:02Z" finished-at="2020-05-14T16:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="loginPageNav()[pri:0, instance:learning.HomePage@131ef10]" name="loginPageNav" duration-ms="84327" started-at="2020-05-14T16:26:14Z" finished-at="2020-05-14T16:27:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNav -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:learning.HomePage@131ef10]" name="closeBrowser" is-config="true" duration-ms="433" started-at="2020-05-14T16:27:38Z" finished-at="2020-05-14T16:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- learning.HomePage -->
+    </test> <!-- Home Page Validation -->
+    <test name="Login Verification" duration-ms="66459" started-at="2020-05-14T16:27:42Z" finished-at="2020-05-14T16:28:48Z">
+      <class name="learning.LoginVerification">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:learning.LoginVerification@58a9760d]" name="intialize" is-config="true" duration-ms="6054" started-at="2020-05-14T16:27:42Z" finished-at="2020-05-14T16:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="loginApplication(java.lang.String, java.lang.String)[pri:0, instance:learning.LoginVerification@58a9760d]" name="loginApplication" duration-ms="48058" started-at="2020-05-14T16:27:48Z" data-provider="getData" finished-at="2020-05-14T16:28:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dinskana@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123241241]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="loginApplication(java.lang.String, java.lang.String)[pri:0, instance:learning.LoginVerification@58a9760d]" name="loginApplication" duration-ms="12076" started-at="2020-05-14T16:28:36Z" data-provider="getData" finished-at="2020-05-14T16:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rose.manju@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5r6t7890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="close()[pri:0, instance:learning.LoginVerification@58a9760d]" name="close" is-config="true" duration-ms="266" started-at="2020-05-14T16:28:48Z" finished-at="2020-05-14T16:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- learning.LoginVerification -->
+    </test> <!-- Login Verification -->
+    <test name="Titel Validation" duration-ms="13330" started-at="2020-05-14T16:28:48Z" finished-at="2020-05-14T16:29:01Z">
+      <class name="learning.HomepageTitleValidation">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:learning.HomepageTitleValidation@75db5df9]" name="intialize" is-config="true" duration-ms="13181" started-at="2020-05-14T16:28:48Z" finished-at="2020-05-14T16:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="titleValidation()[pri:0, instance:learning.HomepageTitleValidation@75db5df9]" name="titleValidation" duration-ms="56" started-at="2020-05-14T16:29:01Z" finished-at="2020-05-14T16:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="close()[pri:0, instance:learning.HomepageTitleValidation@75db5df9]" name="close" is-config="true" duration-ms="90" started-at="2020-05-14T16:29:01Z" finished-at="2020-05-14T16:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- learning.HomepageTitleValidation -->
+    </test> <!-- Titel Validation -->
+  </suite> <!-- Suite -->
+</testng-results>
